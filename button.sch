@@ -1,0 +1,145 @@
+EESchema Schematic File Version 4
+LIBS:bt_audio-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_Push SW?
+U 1 1 63BDD740
+P 5400 3700
+AR Path="/63BE5127/63BDD740" Ref="SW?"  Part="1" 
+AR Path="/63BDD452/63BDD740" Ref="SW5"  Part="1" 
+AR Path="/63BDEBDA/63BDD740" Ref="SW4"  Part="1" 
+AR Path="/63BDEC81/63BDD740" Ref="SW3"  Part="1" 
+AR Path="/63BDED34/63BDD740" Ref="SW2"  Part="1" 
+AR Path="/63BDEE27/63BDD740" Ref="SW6"  Part="1" 
+AR Path="/63BDEEFE/63BDD740" Ref="SW1"  Part="1" 
+F 0 "SW6" H 5400 3850 50  0000 C CNN
+F 1 "EVP-BV2C1L000" H 5400 3950 50  0000 C CNN
+F 2 "bt_audio:tactile_switch" H 5400 3900 50  0001 C CNN
+F 3 "~" H 5400 3900 50  0001 C CNN
+	1    5400 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 63BDD746
+P 5100 3700
+AR Path="/63BE5127/63BDD746" Ref="R?"  Part="1" 
+AR Path="/63BDD452/63BDD746" Ref="R20"  Part="1" 
+AR Path="/63BDEBDA/63BDD746" Ref="R19"  Part="1" 
+AR Path="/63BDEC81/63BDD746" Ref="R18"  Part="1" 
+AR Path="/63BDED34/63BDD746" Ref="R17"  Part="1" 
+AR Path="/63BDEE27/63BDD746" Ref="R21"  Part="1" 
+AR Path="/63BDEEFE/63BDD746" Ref="R16"  Part="1" 
+F 0 "R21" V 5200 3700 50  0000 C CNN
+F 1 "0" V 5100 3700 50  0000 C CNN
+F 2 "bt_audio:R_0402_1005Metric" H 5100 3700 50  0001 C CNN
+F 3 "~" H 5100 3700 50  0001 C CNN
+	1    5100 3700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5600 3700 5700 3700
+Wire Wire Line
+	5700 3700 5700 3800
+$Comp
+L power:GND #PWR?
+U 1 1 63BDD755
+P 5700 4100
+AR Path="/63BE5127/63BDD755" Ref="#PWR?"  Part="1" 
+AR Path="/63BDD452/63BDD755" Ref="#PWR0133"  Part="1" 
+AR Path="/63BDEBDA/63BDD755" Ref="#PWR0131"  Part="1" 
+AR Path="/63BDEC81/63BDD755" Ref="#PWR0129"  Part="1" 
+AR Path="/63BDED34/63BDD755" Ref="#PWR0127"  Part="1" 
+AR Path="/63BDEE27/63BDD755" Ref="#PWR0135"  Part="1" 
+AR Path="/63BDEEFE/63BDD755" Ref="#PWR0125"  Part="1" 
+F 0 "#PWR0135" H 5700 3850 50  0001 C CNN
+F 1 "GND" H 5700 3950 50  0000 C CNN
+F 2 "" H 5700 4100 50  0001 C CNN
+F 3 "" H 5700 4100 50  0001 C CNN
+	1    5700 4100
+	1    0    0    -1  
+$EndComp
+Connection ~ 5700 3700
+$Comp
+L Device:C_Small C?
+U 1 1 63BDD75C
+P 6100 3950
+AR Path="/63BE5127/63BDD75C" Ref="C?"  Part="1" 
+AR Path="/63BDD452/63BDD75C" Ref="C23"  Part="1" 
+AR Path="/63BDEBDA/63BDD75C" Ref="C22"  Part="1" 
+AR Path="/63BDEC81/63BDD75C" Ref="C21"  Part="1" 
+AR Path="/63BDED34/63BDD75C" Ref="C20"  Part="1" 
+AR Path="/63BDEE27/63BDD75C" Ref="C24"  Part="1" 
+AR Path="/63BDEEFE/63BDD75C" Ref="C19"  Part="1" 
+F 0 "C24" H 6250 3850 50  0000 C CNN
+F 1 "15p" H 5950 3850 50  0000 C CNN
+F 2 "bt_audio:C_0402_1005Metric" H 6100 3950 50  0001 C CNN
+F 3 "~" H 6100 3950 50  0001 C CNN
+	1    6100 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 3850 6100 3700
+Wire Wire Line
+	5700 3700 6100 3700
+$Comp
+L power:GND #PWR?
+U 1 1 63BDD764
+P 6100 4100
+AR Path="/63BE5127/63BDD764" Ref="#PWR?"  Part="1" 
+AR Path="/63BDD452/63BDD764" Ref="#PWR0134"  Part="1" 
+AR Path="/63BDEBDA/63BDD764" Ref="#PWR0132"  Part="1" 
+AR Path="/63BDEC81/63BDD764" Ref="#PWR0130"  Part="1" 
+AR Path="/63BDED34/63BDD764" Ref="#PWR0128"  Part="1" 
+AR Path="/63BDEE27/63BDD764" Ref="#PWR0136"  Part="1" 
+AR Path="/63BDEEFE/63BDD764" Ref="#PWR0126"  Part="1" 
+F 0 "#PWR0136" H 6100 3850 50  0001 C CNN
+F 1 "GND" H 6100 3950 50  0000 C CNN
+F 2 "" H 6100 4100 50  0001 C CNN
+F 3 "" H 6100 4100 50  0001 C CNN
+	1    6100 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 4100 6100 4050
+Wire Wire Line
+	6100 3700 6200 3700
+Connection ~ 6100 3700
+Text HLabel 6200 3700 2    50   Output ~ 0
+read_pin
+Text HLabel 4900 3700 0    50   Input ~ 0
+push_value
+Wire Wire Line
+	4900 3700 5000 3700
+$Comp
+L Device:D_TVS D?
+U 1 1 63BDD74D
+P 5700 3950
+AR Path="/63BE5127/63BDD74D" Ref="D?"  Part="1" 
+AR Path="/63BDD452/63BDD74D" Ref="D14"  Part="1" 
+AR Path="/63BDEBDA/63BDD74D" Ref="D13"  Part="1" 
+AR Path="/63BDEC81/63BDD74D" Ref="D12"  Part="1" 
+AR Path="/63BDED34/63BDD74D" Ref="D11"  Part="1" 
+AR Path="/63BDEE27/63BDD74D" Ref="D15"  Part="1" 
+AR Path="/63BDEEFE/63BDD74D" Ref="D10"  Part="1" 
+F 0 "D15" V 5654 4029 50  0000 L CNN
+F 1 "PESD5V0S1BA" H 5550 3800 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323" H 5700 3950 50  0001 C CNN
+F 3 "~" H 5700 3950 50  0001 C CNN
+	1    5700 3950
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC

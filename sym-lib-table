@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name project_library)(type Legacy)(uri ${KIPRJMOD}/project_library.lib)(options "")(descr ""))
+  (lib (name bt_audio-rescue)(type Legacy)(uri ${KIPRJMOD}/bt_audio-rescue.lib)(options "")(descr ""))
+)

@@ -1,0 +1,1601 @@
+EESchema Schematic File Version 4
+LIBS:bt_audio-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C_Small C?
+U 1 1 63C264BA
+P 3850 3050
+AR Path="/63BE5127/63C264BA" Ref="C?"  Part="1" 
+AR Path="/63C264BA" Ref="C6"  Part="1" 
+F 0 "C6" H 3942 3096 50  0000 L CNN
+F 1 "1u" H 3942 3005 50  0000 L CNN
+F 2 "bt_audio:C_0402_1005Metric" H 3850 3050 50  0001 C CNN
+F 3 "~" H 3850 3050 50  0001 C CNN
+	1    3850 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63C264C0
+P 4500 3000
+AR Path="/63BE5127/63C264C0" Ref="#PWR?"  Part="1" 
+AR Path="/63C264C0" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 4500 2750 50  0001 C CNN
+F 1 "GND" V 4500 2900 50  0000 R CNN
+F 2 "" H 4500 3000 50  0001 C CNN
+F 3 "" H 4500 3000 50  0001 C CNN
+	1    4500 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63C264C6
+P 3850 3150
+AR Path="/63BE5127/63C264C6" Ref="#PWR?"  Part="1" 
+AR Path="/63C264C6" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 3850 2900 50  0001 C CNN
+F 1 "GND" H 3850 3000 50  0000 C CNN
+F 2 "" H 3850 3150 50  0001 C CNN
+F 3 "" H 3850 3150 50  0001 C CNN
+	1    3850 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 3000 4500 3000
+Wire Wire Line
+	3850 2950 3850 2900
+Wire Wire Line
+	3850 2900 4600 2900
+$Comp
+L power:GND #PWR?
+U 1 1 63C264CF
+P 4500 3650
+AR Path="/63BE5127/63C264CF" Ref="#PWR?"  Part="1" 
+AR Path="/63C264CF" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 4500 3400 50  0001 C CNN
+F 1 "GND" V 4500 3550 50  0000 R CNN
+F 2 "" H 4500 3650 50  0001 C CNN
+F 3 "" H 4500 3650 50  0001 C CNN
+	1    4500 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4600 3650 4550 3650
+Wire Wire Line
+	4600 3750 4550 3750
+Wire Wire Line
+	4550 3750 4550 3650
+Connection ~ 4550 3650
+Wire Wire Line
+	4550 3650 4500 3650
+$Comp
+L power:GND #PWR?
+U 1 1 63C264DA
+P 6100 1500
+AR Path="/63BE5127/63C264DA" Ref="#PWR?"  Part="1" 
+AR Path="/63C264DA" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 6100 1250 50  0001 C CNN
+F 1 "GND" V 6100 1400 50  0000 R CNN
+F 2 "" H 6100 1500 50  0001 C CNN
+F 3 "" H 6100 1500 50  0001 C CNN
+	1    6100 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6000 1500 6100 1500
+$Comp
+L Device:C_Small C?
+U 1 1 63C264E1
+P 1100 2650
+AR Path="/63BE5127/63C264E1" Ref="C?"  Part="1" 
+AR Path="/63C264E1" Ref="C2"  Part="1" 
+F 0 "C2" V 1200 2650 50  0000 C CNN
+F 1 "1u" V 1000 2650 50  0000 C CNN
+F 2 "bt_audio:C_0402_1005Metric" H 1100 2650 50  0001 C CNN
+F 3 "~" H 1100 2650 50  0001 C CNN
+	1    1100 2650
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	1650 900  1650 1150
+Text Label 6000 3300 0    50   ~ 0
+LED1
+Text Label 6000 3100 0    50   ~ 0
+LED2
+Text Label 6000 3400 0    50   ~ 0
+SYS_CFG
+$Comp
+L power:GND #PWR?
+U 1 1 63C264FD
+P 1750 2000
+AR Path="/63BE5127/63C264FD" Ref="#PWR?"  Part="1" 
+AR Path="/63C264FD" Ref="#PWR0105"  Part="1" 
+F 0 "#PWR0105" H 1750 1750 50  0001 C CNN
+F 1 "GND" H 1750 1850 50  0000 C CNN
+F 2 "" H 1750 2000 50  0001 C CNN
+F 3 "" H 1750 2000 50  0001 C CNN
+	1    1750 2000
+	1    0    0    -1  
+$EndComp
+Text Label 2100 1700 2    50   ~ 0
+SYS_PWR
+Wire Wire Line
+	1750 1700 1750 1800
+$Comp
+L Device:C_Small C?
+U 1 1 63C2650C
+P 1750 1900
+AR Path="/63BE5127/63C2650C" Ref="C?"  Part="1" 
+AR Path="/63C2650C" Ref="C5"  Part="1" 
+F 0 "C5" H 1658 1854 50  0000 R CNN
+F 1 "100n" H 1658 1945 50  0000 R CNN
+F 2 "bt_audio:C_0402_1005Metric" H 1750 1900 50  0001 C CNN
+F 3 "~" H 1750 1900 50  0001 C CNN
+	1    1750 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63C26524
+P 650 900
+AR Path="/63BE5127/63C26524" Ref="#PWR?"  Part="1" 
+AR Path="/63C26524" Ref="#PWR0106"  Part="1" 
+F 0 "#PWR0106" H 650 650 50  0001 C CNN
+F 1 "GND" H 650 750 50  0000 C CNN
+F 2 "" H 650 900 50  0001 C CNN
+F 3 "" H 650 900 50  0001 C CNN
+	1    650  900 
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	1150 1000 1400 1000
+Wire Notes Line
+	1150 1150 1150 900 
+Wire Notes Line
+	1650 1150 1150 1150
+Wire Notes Line
+	1150 900  1650 900 
+Text Notes 1150 1150 0    50   ~ 0
+MODE\nAPP   OPEN\nTEST  CLOSE
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 63C2652F
+P 900 700
+AR Path="/63BE5127/63C2652F" Ref="JP?"  Part="1" 
+AR Path="/63C2652F" Ref="JP1"  Part="1" 
+F 0 "JP1" H 900 600 50  0000 C CNN
+F 1 "SYS_CFG" H 900 850 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 900 700 50  0001 C CNN
+F 3 "~" H 900 700 50  0001 C CNN
+	1    900  700 
+	-1   0    0    1   
+$EndComp
+Text Label 950  1900 2    50   ~ 0
+LED2
+Text Label 950  1500 2    50   ~ 0
+LED1
+Wire Wire Line
+	750  700  650  700 
+Wire Wire Line
+	650  700  650  900 
+Wire Wire Line
+	1050 700  1150 700 
+Text Label 1150 700  0    50   ~ 0
+SYS_CFG
+Text Label 5050 4250 3    50   ~ 0
+BAT_IN
+Text Label 4950 4250 3    50   ~ 0
+ADAP_IN
+Text Label 1400 2550 1    50   ~ 0
+SYS_PWR
+Text Label 1100 2550 1    50   ~ 0
+BAT_IN
+Text Label 800  2550 1    50   ~ 0
+ADAP_IN
+Text Label 1700 2550 1    50   ~ 0
+VDD_IO
+$Comp
+L Device:C_Small C?
+U 1 1 63C26542
+P 800 2650
+AR Path="/63BE5127/63C26542" Ref="C?"  Part="1" 
+AR Path="/63C26542" Ref="C1"  Part="1" 
+F 0 "C1" V 900 2650 50  0000 C CNN
+F 1 "1u" V 700 2650 50  0000 C CNN
+F 2 "bt_audio:C_0402_1005Metric" H 800 2650 50  0001 C CNN
+F 3 "~" H 800 2650 50  0001 C CNN
+	1    800  2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63C26548
+P 700 2850
+AR Path="/63BE5127/63C26548" Ref="#PWR?"  Part="1" 
+AR Path="/63C26548" Ref="#PWR0107"  Part="1" 
+F 0 "#PWR0107" H 700 2600 50  0001 C CNN
+F 1 "GND" H 700 2700 50  0000 C CNN
+F 2 "" H 700 2850 50  0001 C CNN
+F 3 "" H 700 2850 50  0001 C CNN
+	1    700  2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 63C2654E
+P 1400 2650
+AR Path="/63BE5127/63C2654E" Ref="C?"  Part="1" 
+AR Path="/63C2654E" Ref="C3"  Part="1" 
+F 0 "C3" V 1500 2650 50  0000 C CNN
+F 1 "100n" V 1300 2650 50  0000 C CNN
+F 2 "bt_audio:C_0402_1005Metric" H 1400 2650 50  0001 C CNN
+F 3 "~" H 1400 2650 50  0001 C CNN
+	1    1400 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 63C26554
+P 1700 2650
+AR Path="/63BE5127/63C26554" Ref="C?"  Part="1" 
+AR Path="/63C26554" Ref="C4"  Part="1" 
+F 0 "C4" V 1800 2650 50  0000 C CNN
+F 1 "100n" V 1600 2650 50  0000 C CNN
+F 2 "bt_audio:C_0402_1005Metric" H 1700 2650 50  0001 C CNN
+F 3 "~" H 1700 2650 50  0001 C CNN
+	1    1700 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 2750 1700 2850
+Wire Wire Line
+	1700 2850 1400 2850
+Wire Wire Line
+	800  2850 700  2850
+Wire Wire Line
+	800  2850 800  2750
+Connection ~ 800  2850
+Wire Wire Line
+	1100 2750 1100 2850
+Connection ~ 1100 2850
+Wire Wire Line
+	1100 2850 800  2850
+Wire Wire Line
+	1400 2750 1400 2850
+Connection ~ 1400 2850
+Wire Wire Line
+	1400 2850 1100 2850
+Text Label 6000 3000 0    50   ~ 0
+PWM_LED
+Text Label 950  1700 2    50   ~ 0
+PWM_LED
+Wire Wire Line
+	1050 1900 950  1900
+Wire Wire Line
+	950  1700 1050 1700
+Wire Wire Line
+	1050 1500 950  1500
+$Comp
+L project_library:MCP111-300E U?
+U 1 1 63C26581
+P 7350 2250
+AR Path="/63BE5127/63C26581" Ref="U?"  Part="1" 
+AR Path="/63C26581" Ref="U3"  Part="1" 
+F 0 "U3" H 7200 2100 50  0000 C CNN
+F 1 "MCP111-300E" H 7350 2400 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7350 2250 50  0001 C CNN
+F 3 "" H 7350 2250 50  0001 C CNN
+	1    7350 2250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63C26587
+P 7350 2450
+AR Path="/63BE5127/63C26587" Ref="#PWR?"  Part="1" 
+AR Path="/63C26587" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H 7350 2200 50  0001 C CNN
+F 1 "GND" V 7350 2350 50  0000 R CNN
+F 2 "" H 7350 2450 50  0001 C CNN
+F 3 "" H 7350 2450 50  0001 C CNN
+	1    7350 2450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 2200 7850 2200
+Wire Wire Line
+	7850 2200 7850 2300
+Connection ~ 7850 2200
+Wire Wire Line
+	7850 2200 7750 2200
+$Comp
+L Device:C_Small C?
+U 1 1 63C26591
+P 7850 2400
+AR Path="/63BE5127/63C26591" Ref="C?"  Part="1" 
+AR Path="/63C26591" Ref="C14"  Part="1" 
+F 0 "C14" V 7950 2400 50  0000 C CNN
+F 1 "100n" V 7750 2400 50  0000 C CNN
+F 2 "bt_audio:C_0402_1005Metric" H 7850 2400 50  0001 C CNN
+F 3 "~" H 7850 2400 50  0001 C CNN
+	1    7850 2400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63C26597
+P 7850 2500
+AR Path="/63BE5127/63C26597" Ref="#PWR?"  Part="1" 
+AR Path="/63C26597" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 7850 2250 50  0001 C CNN
+F 1 "GND" V 7850 2400 50  0000 R CNN
+F 2 "" H 7850 2500 50  0001 C CNN
+F 3 "" H 7850 2500 50  0001 C CNN
+	1    7850 2500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 63C2659D
+P 6850 2000
+AR Path="/63BE5127/63C2659D" Ref="R?"  Part="1" 
+AR Path="/63C2659D" Ref="R10"  Part="1" 
+F 0 "R10" V 6950 2000 50  0000 C CNN
+F 1 "4.7k" V 6750 2000 50  0000 C CNN
+F 2 "bt_audio:R_0402_1005Metric" H 6850 2000 50  0001 C CNN
+F 3 "~" H 6850 2000 50  0001 C CNN
+	1    6850 2000
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6850 2100 6850 2200
+Wire Wire Line
+	6850 2200 6950 2200
+Text Label 6850 1900 1    50   ~ 0
+VDD_IO
+Connection ~ 6850 2200
+Wire Wire Line
+	6000 2200 6850 2200
+Text Label 6000 2200 0    50   ~ 0
+RST_N
+Text Label 7950 2200 0    50   ~ 0
+SYS_PWR
+Text Label 5350 4250 3    50   ~ 0
+MFB_PWR
+Text Label 5250 4250 3    50   ~ 0
+VDD_IO
+Text Label 5150 4250 3    50   ~ 0
+SYS_PWR
+Wire Notes Line
+	2250 1250 500  1250
+Wire Notes Line
+	2250 2200 500  2200
+Text Label 6000 3200 0    50   ~ 0
+PLAY_PAUSE
+Text Label 6000 2600 0    50   ~ 0
+VOL_UP
+Text Label 6000 2500 0    50   ~ 0
+VOL_DOWN
+Text Label 6000 2100 0    50   ~ 0
+FWD
+Text Label 6000 2700 0    50   ~ 0
+REV
+Text Label 6000 2900 0    50   ~ 0
+USB_DM
+Text Label 6000 2800 0    50   ~ 0
+USB_DP
+Wire Notes Line
+	2250 3000 500  3000
+$Comp
+L Connector:AudioJack4 J1
+U 1 1 63C5F8C4
+P 900 6900
+F 0 "J1" H 857 7225 50  0000 C CNN
+F 1 "AudioJack4_Ground" H 950 7150 50  0000 C CNN
+F 2 "bt_audio:SJ-43516-SMT" H 900 6900 50  0001 C CNN
+F 3 "~" H 900 6900 50  0001 C CNN
+	1    900  6900
+	1    0    0    -1  
+$EndComp
+Text Label 1100 7000 0    50   ~ 0
+JACK_OUT_R
+Text Label 1100 6800 0    50   ~ 0
+JACK_OUT_MIC
+Text Label 1100 6900 0    50   ~ 0
+JACK_OUT_COM
+Text Label 1100 7100 0    50   ~ 0
+JACK_OUT_L
+Text Label 4600 2200 2    50   ~ 0
+AOHPL
+Text Label 4600 2100 2    50   ~ 0
+AOHPM
+Text Label 4600 2000 2    50   ~ 0
+AOHPR
+$Comp
+L power:GND #PWR0115
+U 1 1 63BE14CF
+P 800 5650
+F 0 "#PWR0115" H 800 5400 50  0001 C CNN
+F 1 "GND" H 805 5477 50  0000 C CNN
+F 2 "" H 800 5650 50  0001 C CNN
+F 3 "" H 800 5650 50  0001 C CNN
+	1    800  5650
+	1    0    0    -1  
+$EndComp
+Text Label 600  3300 3    50   ~ 0
+SYS_PWR
+Text Label 1450 5550 0    50   ~ 0
+REV
+Text Label 1450 5100 0    50   ~ 0
+FWD
+Text Label 1450 4650 0    50   ~ 0
+VOL_DOWN
+Text Label 1450 4200 0    50   ~ 0
+VOL_UP
+Text Label 1450 3750 0    50   ~ 0
+PLAY_PAUSE
+Text Label 1450 3300 0    50   ~ 0
+MFB_PWR
+Wire Wire Line
+	900  3650 800  3650
+Wire Wire Line
+	900  4100 800  4100
+Wire Wire Line
+	900  4550 800  4550
+Wire Wire Line
+	900  5000 800  5000
+$Sheet
+S 900  4950 550  250 
+U 63BDEEFE
+F0 "FWD" 50
+F1 "button.sch" 50
+F2 "read_pin" O R 1450 5100 50 
+F3 "push_value" I L 900 5000 50 
+$EndSheet
+$Sheet
+S 900  4500 550  250 
+U 63BDED34
+F0 "VOL_DOWN" 50
+F1 "button.sch" 50
+F2 "read_pin" O R 1450 4650 50 
+F3 "push_value" I L 900 4550 50 
+$EndSheet
+$Sheet
+S 900  4050 550  250 
+U 63BDEC81
+F0 "VOL_UP" 50
+F1 "button.sch" 50
+F2 "read_pin" O R 1450 4200 50 
+F3 "push_value" I L 900 4100 50 
+$EndSheet
+$Sheet
+S 900  3600 550  250 
+U 63BDEBDA
+F0 "PLAY_PAUSE" 50
+F1 "button.sch" 50
+F2 "read_pin" O R 1450 3750 50 
+F3 "push_value" I L 900 3650 50 
+$EndSheet
+$Sheet
+S 900  3150 550  250 
+U 63BDD452
+F0 "MFB PWR" 50
+F1 "button.sch" 50
+F2 "read_pin" O R 1450 3300 50 
+F3 "push_value" I L 900 3200 50 
+$EndSheet
+Wire Wire Line
+	900  5450 800  5450
+$Sheet
+S 900  5400 550  250 
+U 63BDEE27
+F0 "REV" 50
+F1 "button.sch" 50
+F2 "read_pin" O R 1450 5550 50 
+F3 "push_value" I L 900 5450 50 
+$EndSheet
+Connection ~ 800  4100
+Connection ~ 800  4550
+Connection ~ 800  5000
+Connection ~ 800  5450
+Wire Wire Line
+	800  4100 800  4550
+Wire Wire Line
+	800  4550 800  5000
+Wire Wire Line
+	800  5000 800  5450
+Wire Wire Line
+	800  5450 800  5650
+Wire Wire Line
+	800  3650 800  4100
+Wire Notes Line
+	4300 5900 4300 7800
+$Comp
+L Device:C_Small C?
+U 1 1 63C59F89
+P 3850 7200
+AR Path="/63BE5127/63C59F89" Ref="C?"  Part="1" 
+AR Path="/63C59F89" Ref="C11"  Part="1" 
+F 0 "C11" H 3758 7154 50  0000 R CNN
+F 1 "47n" H 3758 7245 50  0000 R CNN
+F 2 "bt_audio:C_0402_1005Metric" H 3850 7200 50  0001 C CNN
+F 3 "~" H 3850 7200 50  0001 C CNN
+	1    3850 7200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 63C5A270
+P 3850 6800
+AR Path="/63BE5127/63C5A270" Ref="C?"  Part="1" 
+AR Path="/63C5A270" Ref="C10"  Part="1" 
+F 0 "C10" H 3758 6754 50  0000 R CNN
+F 1 "47n" H 3758 6845 50  0000 R CNN
+F 2 "bt_audio:C_0402_1005Metric" H 3850 6800 50  0001 C CNN
+F 3 "~" H 3850 6800 50  0001 C CNN
+	1    3850 6800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 63C63960
+P 3800 6350
+AR Path="/63BE5127/63C63960" Ref="C?"  Part="1" 
+AR Path="/63C63960" Ref="C9"  Part="1" 
+F 0 "C9" H 3708 6304 50  0000 R CNN
+F 1 "1u" H 3708 6395 50  0000 R CNN
+F 2 "bt_audio:C_0402_1005Metric" H 3800 6350 50  0001 C CNN
+F 3 "~" H 3800 6350 50  0001 C CNN
+	1    3800 6350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3700 6150 3800 6150
+Wire Wire Line
+	3800 6250 3800 6150
+Connection ~ 3800 6150
+Wire Wire Line
+	3800 6150 3900 6150
+$Comp
+L power:GND #PWR?
+U 1 1 63C8D744
+P 3800 6450
+AR Path="/63BE5127/63C8D744" Ref="#PWR?"  Part="1" 
+AR Path="/63C8D744" Ref="#PWR0118"  Part="1" 
+F 0 "#PWR0118" H 3800 6200 50  0001 C CNN
+F 1 "GND" H 3800 6300 50  0000 C CNN
+F 2 "" H 3800 6450 50  0001 C CNN
+F 3 "" H 3800 6450 50  0001 C CNN
+	1    3800 6450
+	1    0    0    -1  
+$EndComp
+Text Label 3900 6150 0    50   ~ 0
+MIC_BIAS
+Text Label 4600 2900 2    50   ~ 0
+MIC_BIAS
+Text Label 3950 7200 0    50   ~ 0
+MIC_N1
+Text Label 3950 6800 0    50   ~ 0
+MIC_P1
+Text Label 4600 2800 2    50   ~ 0
+MIC_P1
+Text Label 4600 2700 2    50   ~ 0
+MIC_N1
+NoConn ~ 6000 1900
+NoConn ~ 6000 1800
+NoConn ~ 6000 1700
+NoConn ~ 6000 2000
+NoConn ~ 6000 1600
+NoConn ~ 6000 2300
+NoConn ~ 6000 2400
+$Comp
+L project_library:MC_BM83 U?
+U 1 1 63C264B4
+P 5300 2500
+AR Path="/63BE5127/63C264B4" Ref="U?"  Part="1" 
+AR Path="/63C264B4" Ref="U1"  Part="1" 
+F 0 "U1" H 5300 3950 50  0000 C CNN
+F 1 "MC_BM83" H 5300 3700 50  0000 C CNN
+F 2 "bt_audio:MC_BM83" H 5300 3550 50  0001 C CNN
+F 3 "https://ww1.microchip.com/downloads/aemDocuments/documents/WSG/ProductDocuments/DataSheets/70005402E.pdf" H 5300 3550 50  0001 C CNN
+	1    5300 2500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4600 2300
+NoConn ~ 4600 2400
+NoConn ~ 4600 2500
+NoConn ~ 4600 2600
+NoConn ~ 4600 1900
+NoConn ~ 4600 1800
+NoConn ~ 4600 1700
+NoConn ~ 4600 1600
+NoConn ~ 4600 1500
+NoConn ~ 4600 3400
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 63C58086
+P 9550 3850
+F 0 "J2" H 9468 3525 50  0000 C CNN
+F 1 "Conn_01x02" H 9468 3616 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 9550 3850 50  0001 C CNN
+F 3 "~" H 9550 3850 50  0001 C CNN
+	1    9550 3850
+	-1   0    0    1   
+$EndComp
+Text Label 9750 3750 0    50   ~ 0
+BAT_IN
+$Comp
+L power:GND #PWR?
+U 1 1 63C591A6
+P 9750 3850
+AR Path="/63BE5127/63C591A6" Ref="#PWR?"  Part="1" 
+AR Path="/63C591A6" Ref="#PWR0119"  Part="1" 
+F 0 "#PWR0119" H 9750 3600 50  0001 C CNN
+F 1 "GND" V 9750 3750 50  0000 R CNN
+F 2 "" H 9750 3850 50  0001 C CNN
+F 3 "" H 9750 3850 50  0001 C CNN
+	1    9750 3850
+	0    -1   -1   0   
+$EndComp
+Text Label 4600 3300 2    50   ~ 0
+DMIC1_L
+Text Label 10800 4500 0    50   ~ 0
+ADAP_IN
+Connection ~ 10700 4500
+Wire Wire Line
+	10700 4500 10800 4500
+Wire Wire Line
+	10700 5700 10800 5700
+Connection ~ 10700 5700
+Wire Wire Line
+	10700 5250 10700 5700
+Wire Wire Line
+	10500 4500 10700 4500
+Wire Wire Line
+	10500 5700 10700 5700
+Connection ~ 10500 5700
+Wire Wire Line
+	10500 4500 10400 4500
+Connection ~ 10500 4500
+Wire Wire Line
+	10100 5700 10500 5700
+Wire Wire Line
+	10100 4500 10200 4500
+Connection ~ 10100 5700
+Connection ~ 10100 4500
+Wire Wire Line
+	9900 5700 10100 5700
+Wire Wire Line
+	9900 4500 10100 4500
+Wire Wire Line
+	9450 5200 9450 5100
+Connection ~ 9450 5200
+Wire Wire Line
+	9100 5700 9450 5700
+Wire Wire Line
+	9100 5700 8750 5700
+Connection ~ 9100 5700
+Connection ~ 9100 5100
+Wire Wire Line
+	8750 4500 8250 4500
+Text Label 9550 4700 0    50   ~ 0
+USB_DM
+Text Label 9550 4800 0    50   ~ 0
+USB_DP
+$Comp
+L Device:R_Small R?
+U 1 1 63C8B8F0
+P 9450 5000
+AR Path="/63BE5127/63C8B8F0" Ref="R?"  Part="1" 
+AR Path="/63C8B8F0" Ref="R14"  Part="1" 
+F 0 "R14" V 9550 5000 50  0000 C CNN
+F 1 "0" V 9450 5000 50  0000 C CNN
+F 2 "bt_audio:R_0402_1005Metric" H 9450 5000 50  0001 C CNN
+F 3 "~" H 9450 5000 50  0001 C CNN
+	1    9450 5000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9450 4800 9550 4800
+Wire Wire Line
+	8350 5100 9100 5100
+Wire Wire Line
+	8350 5200 9450 5200
+Wire Wire Line
+	10700 4850 10700 4500
+$Comp
+L Device:LED_Small D?
+U 1 1 63CD73DD
+P 10700 5150
+AR Path="/63BE5127/63CD73DD" Ref="D?"  Part="1" 
+AR Path="/63CD73DD" Ref="D9"  Part="1" 
+F 0 "D9" H 10700 5050 50  0000 C CNN
+F 1 "GREEN" H 10700 5250 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 10700 5150 50  0001 C CNN
+F 3 "~" V 10700 5150 50  0001 C CNN
+	1    10700 5150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 63CD73D7
+P 10700 4950
+AR Path="/63BE5127/63CD73D7" Ref="R?"  Part="1" 
+AR Path="/63CD73D7" Ref="R15"  Part="1" 
+F 0 "R15" H 10800 4900 50  0000 C CNN
+F 1 "1k" H 10800 5000 50  0000 C CNN
+F 2 "bt_audio:R_0402_1005Metric" H 10700 4950 50  0001 C CNN
+F 3 "~" H 10700 4950 50  0001 C CNN
+	1    10700 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 5350 10500 4500
+Wire Wire Line
+	10500 5550 10500 5700
+$Comp
+L Device:C_Small C?
+U 1 1 63CD0EDC
+P 10500 5450
+AR Path="/63BE5127/63CD0EDC" Ref="C?"  Part="1" 
+AR Path="/63CD0EDC" Ref="C18"  Part="1" 
+F 0 "C18" V 10600 5450 50  0000 C CNN
+F 1 "1u" V 10400 5450 50  0000 C CNN
+F 2 "bt_audio:C_0402_1005Metric" H 10500 5450 50  0001 C CNN
+F 3 "~" H 10500 5450 50  0001 C CNN
+	1    10500 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 5550 10100 5700
+Wire Wire Line
+	9900 5550 9900 5700
+Wire Wire Line
+	10100 5350 10100 4500
+Wire Wire Line
+	9900 5350 9900 4500
+$Comp
+L Device:C_Small C?
+U 1 1 63CC6959
+P 10100 5450
+AR Path="/63BE5127/63CC6959" Ref="C?"  Part="1" 
+AR Path="/63CC6959" Ref="C17"  Part="1" 
+F 0 "C17" H 10250 5450 50  0000 C CNN
+F 1 "100n" H 10250 5550 50  0000 C CNN
+F 2 "bt_audio:C_0402_1005Metric" H 10100 5450 50  0001 C CNN
+F 3 "~" H 10100 5450 50  0001 C CNN
+	1    10100 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 63CC5A46
+P 9900 5450
+AR Path="/63BE5127/63CC5A46" Ref="C?"  Part="1" 
+AR Path="/63CC5A46" Ref="C16"  Part="1" 
+F 0 "C16" H 9750 5450 50  0000 C CNN
+F 1 "100n" H 9750 5550 50  0000 C CNN
+F 2 "bt_audio:C_0402_1005Metric" H 9900 5450 50  0001 C CNN
+F 3 "~" H 9900 5450 50  0001 C CNN
+	1    9900 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 5600 9450 5700
+Wire Wire Line
+	9100 5600 9100 5700
+Wire Wire Line
+	8750 5700 8750 5600
+$Comp
+L power:GND #PWR?
+U 1 1 63CB94DE
+P 10800 5700
+AR Path="/63BE5127/63CB94DE" Ref="#PWR?"  Part="1" 
+AR Path="/63CB94DE" Ref="#PWR0120"  Part="1" 
+F 0 "#PWR0120" H 10800 5450 50  0001 C CNN
+F 1 "GND" H 10800 5550 50  0000 C CNN
+F 2 "" H 10800 5700 50  0001 C CNN
+F 3 "" H 10800 5700 50  0001 C CNN
+	1    10800 5700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9450 5200 9450 5300
+$Comp
+L Device:D_TVS D?
+U 1 1 63CB49F4
+P 9450 5450
+AR Path="/63BE5127/63CB49F4" Ref="D?"  Part="1" 
+AR Path="/63BDD452/63CB49F4" Ref="D?"  Part="1" 
+AR Path="/63BDEBDA/63CB49F4" Ref="D?"  Part="1" 
+AR Path="/63BDEC81/63CB49F4" Ref="D?"  Part="1" 
+AR Path="/63BDED34/63CB49F4" Ref="D?"  Part="1" 
+AR Path="/63BDEE27/63CB49F4" Ref="D?"  Part="1" 
+AR Path="/63BDEEFE/63CB49F4" Ref="D?"  Part="1" 
+AR Path="/63CB49F4" Ref="D8"  Part="1" 
+F 0 "D8" V 9404 5529 50  0000 L CNN
+F 1 "SMBJ10CA-TR" H 9250 5350 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA" H 9450 5450 50  0001 C CNN
+F 3 "~" H 9450 5450 50  0001 C CNN
+	1    9450 5450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9100 5100 9100 5300
+$Comp
+L Device:D_TVS D?
+U 1 1 63CB00BF
+P 9100 5450
+AR Path="/63BE5127/63CB00BF" Ref="D?"  Part="1" 
+AR Path="/63BDD452/63CB00BF" Ref="D?"  Part="1" 
+AR Path="/63BDEBDA/63CB00BF" Ref="D?"  Part="1" 
+AR Path="/63BDEC81/63CB00BF" Ref="D?"  Part="1" 
+AR Path="/63BDED34/63CB00BF" Ref="D?"  Part="1" 
+AR Path="/63BDEE27/63CB00BF" Ref="D?"  Part="1" 
+AR Path="/63BDEEFE/63CB00BF" Ref="D?"  Part="1" 
+AR Path="/63CB00BF" Ref="D7"  Part="1" 
+F 0 "D7" V 9054 5529 50  0000 L CNN
+F 1 "SMBJ10CA-TR" H 8900 5350 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA" H 9100 5450 50  0001 C CNN
+F 3 "~" H 9100 5450 50  0001 C CNN
+	1    9100 5450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8750 4500 8750 5300
+$Comp
+L Device:D_TVS D?
+U 1 1 63CA275E
+P 8750 5450
+AR Path="/63BE5127/63CA275E" Ref="D?"  Part="1" 
+AR Path="/63BDD452/63CA275E" Ref="D?"  Part="1" 
+AR Path="/63BDEBDA/63CA275E" Ref="D?"  Part="1" 
+AR Path="/63BDEC81/63CA275E" Ref="D?"  Part="1" 
+AR Path="/63BDED34/63CA275E" Ref="D?"  Part="1" 
+AR Path="/63BDEE27/63CA275E" Ref="D?"  Part="1" 
+AR Path="/63BDEEFE/63CA275E" Ref="D?"  Part="1" 
+AR Path="/63CA275E" Ref="D6"  Part="1" 
+F 0 "D6" V 8704 5529 50  0000 L CNN
+F 1 "SMBJ10CA-TR" H 8550 5350 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA" H 8750 5450 50  0001 C CNN
+F 3 "~" H 8750 5450 50  0001 C CNN
+	1    8750 5450
+	0    1    1    0   
+$EndComp
+Connection ~ 8650 4800
+$Comp
+L power:GND #PWR?
+U 1 1 63CA1FBB
+P 8650 4800
+AR Path="/63BE5127/63CA1FBB" Ref="#PWR?"  Part="1" 
+AR Path="/63CA1FBB" Ref="#PWR0121"  Part="1" 
+F 0 "#PWR0121" H 8650 4550 50  0001 C CNN
+F 1 "GND" H 8650 4650 50  0000 C CNN
+F 2 "" H 8650 4800 50  0001 C CNN
+F 3 "" H 8650 4800 50  0001 C CNN
+	1    8650 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 4800 8550 4800
+Wire Wire Line
+	8650 4700 8650 4800
+Wire Wire Line
+	8550 4700 8650 4700
+Wire Wire Line
+	8250 4700 8350 4700
+Wire Wire Line
+	8350 4800 8250 4800
+$Comp
+L Device:R_Small R12
+U 1 1 63C99D5C
+P 8450 4800
+F 0 "R12" V 8450 4800 50  0000 C CNN
+F 1 "5.1k" V 8550 4800 50  0000 C CNN
+F 2 "bt_audio:R_0402_1005Metric" H 8450 4800 50  0001 C CNN
+F 3 "~" H 8450 4800 50  0001 C CNN
+	1    8450 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R11
+U 1 1 63C98DEB
+P 8450 4700
+F 0 "R11" V 8450 4700 50  0000 C CNN
+F 1 "5.1k" V 8350 4700 50  0000 C CNN
+F 2 "bt_audio:R_0402_1005Metric" H 8450 4700 50  0001 C CNN
+F 3 "~" H 8450 4700 50  0001 C CNN
+	1    8450 4700
+	0    1    1    0   
+$EndComp
+NoConn ~ 8250 5700
+NoConn ~ 8250 5600
+$Comp
+L Device:Ferrite_Bead_Small FB2
+U 1 1 63C90049
+P 10300 4500
+F 0 "FB2" V 10063 4500 50  0000 C CNN
+F 1 "100R" V 10154 4500 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" V 10230 4500 50  0001 C CNN
+F 3 "~" H 10300 4500 50  0001 C CNN
+	1    10300 4500
+	0    1    1    0   
+$EndComp
+Connection ~ 8350 5200
+Connection ~ 8350 5100
+Connection ~ 7650 6100
+Wire Wire Line
+	7650 6200 7650 6100
+$Comp
+L power:GND #PWR?
+U 1 1 63C84735
+P 7650 6200
+AR Path="/63BE5127/63C84735" Ref="#PWR?"  Part="1" 
+AR Path="/63C84735" Ref="#PWR0122"  Part="1" 
+F 0 "#PWR0122" H 7650 5950 50  0001 C CNN
+F 1 "GND" H 7650 6050 50  0000 C CNN
+F 2 "" H 7650 6200 50  0001 C CNN
+F 3 "" H 7650 6200 50  0001 C CNN
+	1    7650 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 6100 7650 6000
+Wire Wire Line
+	7350 6100 7650 6100
+Wire Wire Line
+	8350 5300 8250 5300
+Wire Wire Line
+	8350 5200 8350 5300
+Wire Wire Line
+	8250 5200 8350 5200
+Wire Wire Line
+	8350 5100 8250 5100
+Wire Wire Line
+	8350 5000 8350 5100
+Wire Wire Line
+	8250 5000 8350 5000
+$Comp
+L bt_audio-rescue:USB_C_Receptacle_USB2.0-Connector J3
+U 1 1 63C7E5DE
+P 7650 5100
+F 0 "J3" H 7650 5950 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 7650 5850 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 7800 5100 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 7800 5100 50  0001 C CNN
+	1    7650 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 6500 4450 6400
+Wire Wire Line
+	4550 6500 4450 6500
+Wire Wire Line
+	6050 6500 6500 6500
+Wire Wire Line
+	4800 6100 5650 6100
+Wire Wire Line
+	4800 6850 4700 6850
+Connection ~ 4800 6850
+Wire Wire Line
+	4800 6750 4800 6850
+Wire Wire Line
+	4900 6850 4800 6850
+Wire Wire Line
+	5200 6850 5100 6850
+Connection ~ 5200 6850
+Wire Wire Line
+	5200 6650 5200 6850
+Wire Wire Line
+	5050 6650 5200 6650
+Wire Wire Line
+	5300 6850 5200 6850
+Wire Wire Line
+	5500 6850 5600 6850
+$Comp
+L Device:R_Small R9
+U 1 1 63C74B12
+P 5400 6850
+F 0 "R9" H 5459 6896 50  0000 L CNN
+F 1 "4.7k" H 5459 6805 50  0000 L CNN
+F 2 "bt_audio:R_0402_1005Metric" H 5400 6850 50  0001 C CNN
+F 3 "~" H 5400 6850 50  0001 C CNN
+	1    5400 6850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R8
+U 1 1 63C73DA7
+P 5000 6850
+F 0 "R8" H 5059 6896 50  0000 L CNN
+F 1 "4.7k" H 5059 6805 50  0000 L CNN
+F 2 "bt_audio:R_0402_1005Metric" H 5000 6850 50  0001 C CNN
+F 3 "~" H 5000 6850 50  0001 C CNN
+	1    5000 6850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63D420DE
+P 6600 6500
+AR Path="/63BE5127/63D420DE" Ref="#PWR?"  Part="1" 
+AR Path="/63D420DE" Ref="#PWR0123"  Part="1" 
+F 0 "#PWR0123" H 6600 6250 50  0001 C CNN
+F 1 "GND" V 6600 6400 50  0000 R CNN
+F 2 "" H 6600 6500 50  0001 C CNN
+F 3 "" H 6600 6500 50  0001 C CNN
+	1    6600 6500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 6500 6600 6500
+Connection ~ 6500 6500
+Wire Wire Line
+	6500 6400 6500 6500
+Connection ~ 6050 6500
+Wire Wire Line
+	6050 6400 6050 6500
+Wire Wire Line
+	5650 6500 6050 6500
+Wire Wire Line
+	5650 6400 5650 6500
+Wire Wire Line
+	6500 6100 6600 6100
+Connection ~ 6500 6100
+Wire Wire Line
+	6400 6100 6500 6100
+Text Label 6600 6100 0    50   ~ 0
+VDD_IO
+Wire Wire Line
+	6500 6200 6500 6100
+$Comp
+L Device:C_Small C15
+U 1 1 63D1477D
+P 6500 6300
+F 0 "C15" H 6592 6346 50  0000 L CNN
+F 1 "100n" H 6592 6255 50  0000 L CNN
+F 2 "bt_audio:C_0402_1005Metric" H 6500 6300 50  0001 C CNN
+F 3 "~" H 6500 6300 50  0001 C CNN
+	1    6500 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 6100 6200 6100
+Connection ~ 6050 6100
+Wire Wire Line
+	6050 6200 6050 6100
+$Comp
+L Device:C_Small C13
+U 1 1 63D06C28
+P 6050 6300
+F 0 "C13" H 6142 6346 50  0000 L CNN
+F 1 "100n" H 6142 6255 50  0000 L CNN
+F 2 "bt_audio:C_0402_1005Metric" H 6050 6300 50  0001 C CNN
+F 3 "~" H 6050 6300 50  0001 C CNN
+	1    6050 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 6100 6050 6100
+Connection ~ 5650 6100
+Wire Wire Line
+	5650 6200 5650 6100
+$Comp
+L Device:C_Small C12
+U 1 1 63D01128
+P 5650 6300
+F 0 "C12" H 5742 6346 50  0000 L CNN
+F 1 "220p" H 5742 6255 50  0000 L CNN
+F 2 "bt_audio:C_0402_1005Metric" H 5650 6300 50  0001 C CNN
+F 3 "~" H 5650 6300 50  0001 C CNN
+	1    5650 6300
+	1    0    0    -1  
+$EndComp
+Text Notes 4900 7550 0    50   ~ 0
+VDD    Rising  CLK Falling CLK\nGND    Falling CLK Rising  CLK
+Text Notes 4900 7300 0    50   ~ 0
+select  Assert on   Latch on
+Wire Notes Line
+	4900 7200 4900 7600
+Wire Notes Line
+	6150 7200 6150 7600
+Wire Notes Line
+	4900 7200 6150 7200
+Wire Notes Line
+	6150 7600 4900 7600
+Wire Notes Line
+	4900 7350 6150 7350
+Wire Notes Line
+	5650 7200 5650 7600
+Wire Notes Line
+	5150 7200 5150 7600
+Text Label 5600 6850 0    50   ~ 0
+VDD_IO
+Text Label 5050 6350 0    50   ~ 0
+DMIC_CLK
+Wire Wire Line
+	4800 6250 4800 6100
+$Comp
+L Device:Ferrite_Bead_Small FB1
+U 1 1 63C6A798
+P 6300 6100
+F 0 "FB1" V 6250 6000 50  0000 C CNN
+F 1 "120R" V 6250 6250 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" V 6230 6100 50  0001 C CNN
+F 3 "~" H 6300 6100 50  0001 C CNN
+	1    6300 6100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63C69CC0
+P 4700 6850
+AR Path="/63BE5127/63C69CC0" Ref="#PWR?"  Part="1" 
+AR Path="/63C69CC0" Ref="#PWR0124"  Part="1" 
+F 0 "#PWR0124" H 4700 6600 50  0001 C CNN
+F 1 "GND" V 4700 6700 50  0000 R CNN
+F 2 "" H 4700 6850 50  0001 C CNN
+F 3 "" H 4700 6850 50  0001 C CNN
+	1    4700 6850
+	0    1    1    0   
+$EndComp
+Text Label 4450 6400 1    50   ~ 0
+DMIC1_L
+$Comp
+L project_library:SPH0641LU4H-1 U2
+U 1 1 63C68870
+P 4800 6500
+F 0 "U2" H 4950 6250 50  0000 C CNN
+F 1 "SPH0641LU4H-1" H 5300 6500 50  0000 C CNN
+F 2 "bt_audio:SPH0641LU4H-1" H 4450 6900 50  0001 C CNN
+F 3 "" H 4450 6900 50  0001 C CNN
+	1    4800 6500
+	1    0    0    -1  
+$EndComp
+Text Label 4600 3100 2    50   ~ 0
+DMIC_CLK
+NoConn ~ 4600 3200
+Wire Wire Line
+	7350 6000 7350 6100
+Wire Wire Line
+	9100 5100 9200 5100
+Wire Wire Line
+	9200 4700 9550 4700
+$Comp
+L Device:R_Small R?
+U 1 1 63C8AD8F
+P 9200 4900
+AR Path="/63BE5127/63C8AD8F" Ref="R?"  Part="1" 
+AR Path="/63C8AD8F" Ref="R13"  Part="1" 
+F 0 "R13" V 9100 4900 50  0000 C CNN
+F 1 "0" V 9200 4900 50  0000 C CNN
+F 2 "bt_audio:R_0402_1005Metric" H 9200 4900 50  0001 C CNN
+F 3 "~" H 9200 4900 50  0001 C CNN
+	1    9200 4900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9200 5100 9200 5000
+Wire Wire Line
+	9200 4700 9200 4800
+Wire Wire Line
+	9450 4800 9450 4900
+Wire Wire Line
+	9900 4500 8750 4500
+Connection ~ 9900 4500
+Connection ~ 8750 4500
+Wire Wire Line
+	9900 5700 9450 5700
+Connection ~ 9900 5700
+Connection ~ 9450 5700
+Wire Notes Line
+	6950 4150 11200 4150
+Wire Notes Line
+	6950 7800 6950 4150
+$Comp
+L Device:R_Small R?
+U 1 1 63F0A95E
+P 800 3200
+AR Path="/63BE5127/63F0A95E" Ref="R?"  Part="1" 
+AR Path="/63F0A95E" Ref="R1"  Part="1" 
+F 0 "R1" V 900 3200 50  0000 C CNN
+F 1 "0" V 800 3200 50  0000 C CNN
+F 2 "bt_audio:R_0402_1005Metric" H 800 3200 50  0001 C CNN
+F 3 "~" H 800 3200 50  0001 C CNN
+	1    800  3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	700  3200 600  3200
+Wire Wire Line
+	600  3200 600  3300
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 63C11A11
+P 10500 3550
+F 0 "H1" H 10600 3596 50  0000 L CNN
+F 1 "MountingHole" H 10600 3505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 10500 3550 50  0001 C CNN
+F 3 "~" H 10500 3550 50  0001 C CNN
+	1    10500 3550
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	10300 4150 10300 3350
+$Comp
+L Device:R_Small R?
+U 1 1 63C26567
+P 1150 1900
+AR Path="/63BE5127/63C26567" Ref="R?"  Part="1" 
+AR Path="/63C26567" Ref="R4"  Part="1" 
+F 0 "R4" V 1250 1900 50  0000 C CNN
+F 1 "0" V 1150 1900 50  0000 C CNN
+F 2 "bt_audio:R_0402_1005Metric" H 1150 1900 50  0001 C CNN
+F 3 "~" H 1150 1900 50  0001 C CNN
+	1    1150 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 63C2651E
+P 1150 1700
+AR Path="/63BE5127/63C2651E" Ref="R?"  Part="1" 
+AR Path="/63C2651E" Ref="R3"  Part="1" 
+F 0 "R3" V 1250 1700 50  0000 C CNN
+F 1 "0" V 1150 1700 50  0000 C CNN
+F 2 "bt_audio:R_0402_1005Metric" H 1150 1700 50  0001 C CNN
+F 3 "~" H 1150 1700 50  0001 C CNN
+	1    1150 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 63C26518
+P 1150 1500
+AR Path="/63BE5127/63C26518" Ref="R?"  Part="1" 
+AR Path="/63C26518" Ref="R2"  Part="1" 
+F 0 "R2" V 1050 1500 50  0000 C CNN
+F 1 "0" V 1150 1500 50  0000 C CNN
+F 2 "bt_audio:R_0402_1005Metric" H 1150 1500 50  0001 C CNN
+F 3 "~" H 1150 1500 50  0001 C CNN
+	1    1150 1500
+	0    1    1    0   
+$EndComp
+NoConn ~ 5450 4250
+NoConn ~ 5550 4250
+NoConn ~ 5650 4250
+NoConn ~ 5750 4250
+NoConn ~ 4850 4250
+Wire Notes Line
+	500  5900 6950 5900
+Connection ~ 2300 6900
+Wire Wire Line
+	2300 6900 3000 6900
+Connection ~ 1950 6800
+Connection ~ 3000 6800
+Wire Wire Line
+	3000 6800 1950 6800
+Wire Wire Line
+	3100 6150 3000 6150
+Wire Wire Line
+	3000 6900 3000 7200
+Wire Wire Line
+	3000 6150 3000 6800
+$Comp
+L power:GND #PWR?
+U 1 1 63C8D36A
+P 3400 6450
+AR Path="/63BE5127/63C8D36A" Ref="#PWR?"  Part="1" 
+AR Path="/63C8D36A" Ref="#PWR0117"  Part="1" 
+F 0 "#PWR0117" H 3400 6200 50  0001 C CNN
+F 1 "GND" H 3400 6300 50  0000 C CNN
+F 2 "" H 3400 6450 50  0001 C CNN
+F 3 "" H 3400 6450 50  0001 C CNN
+	1    3400 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 6150 3500 6150
+Connection ~ 3400 6150
+Wire Wire Line
+	3400 6250 3400 6150
+Wire Wire Line
+	3300 6150 3400 6150
+$Comp
+L power:GND #PWR?
+U 1 1 63C78879
+P 3000 7500
+AR Path="/63BE5127/63C78879" Ref="#PWR?"  Part="1" 
+AR Path="/63C78879" Ref="#PWR0116"  Part="1" 
+F 0 "#PWR0116" H 3000 7250 50  0001 C CNN
+F 1 "GND" H 3000 7350 50  0000 C CNN
+F 2 "" H 3000 7500 50  0001 C CNN
+F 3 "" H 3000 7500 50  0001 C CNN
+	1    3000 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 7200 3250 7200
+Connection ~ 3000 7200
+Wire Wire Line
+	3000 7300 3000 7200
+Connection ~ 3250 7200
+Wire Wire Line
+	3250 7200 3750 7200
+Wire Wire Line
+	3250 7100 3250 7200
+Wire Wire Line
+	3250 6800 3750 6800
+Connection ~ 3250 6800
+Wire Wire Line
+	3250 6900 3250 6800
+Wire Wire Line
+	3000 6800 3250 6800
+$Comp
+L Device:R_Small R?
+U 1 1 63C6395A
+P 3600 6150
+AR Path="/63BE5127/63C6395A" Ref="R?"  Part="1" 
+AR Path="/63C6395A" Ref="R7"  Part="1" 
+F 0 "R7" H 3500 6100 50  0000 C CNN
+F 1 "1k" H 3500 6200 50  0000 C CNN
+F 2 "bt_audio:R_0402_1005Metric" H 3600 6150 50  0001 C CNN
+F 3 "~" H 3600 6150 50  0001 C CNN
+	1    3600 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 63C5F4ED
+P 3400 6350
+AR Path="/63BE5127/63C5F4ED" Ref="C?"  Part="1" 
+AR Path="/63C5F4ED" Ref="C8"  Part="1" 
+F 0 "C8" H 3550 6300 50  0000 R CNN
+F 1 "1u" H 3550 6400 50  0000 R CNN
+F 2 "bt_audio:C_0402_1005Metric" H 3400 6350 50  0001 C CNN
+F 3 "~" H 3400 6350 50  0001 C CNN
+	1    3400 6350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 63C5E7A2
+P 3200 6150
+AR Path="/63BE5127/63C5E7A2" Ref="R?"  Part="1" 
+AR Path="/63C5E7A2" Ref="R6"  Part="1" 
+F 0 "R6" H 3100 6100 50  0000 C CNN
+F 1 "1k" H 3100 6200 50  0000 C CNN
+F 2 "bt_audio:R_0402_1005Metric" H 3200 6150 50  0001 C CNN
+F 3 "~" H 3200 6150 50  0001 C CNN
+	1    3200 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 63C5D9E8
+P 3000 7400
+AR Path="/63BE5127/63C5D9E8" Ref="R?"  Part="1" 
+AR Path="/63C5D9E8" Ref="R5"  Part="1" 
+F 0 "R5" H 3150 7350 50  0000 C CNN
+F 1 "2.2k" H 3150 7450 50  0000 C CNN
+F 2 "bt_audio:R_0402_1005Metric" H 3000 7400 50  0001 C CNN
+F 3 "~" H 3000 7400 50  0001 C CNN
+	1    3000 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 63C59379
+P 3250 7000
+AR Path="/63BE5127/63C59379" Ref="C?"  Part="1" 
+AR Path="/63C59379" Ref="C7"  Part="1" 
+F 0 "C7" H 3158 6954 50  0000 R CNN
+F 1 "220p" H 3158 7045 50  0000 R CNN
+F 2 "bt_audio:C_0402_1005Metric" H 3250 7000 50  0001 C CNN
+F 3 "~" H 3250 7000 50  0001 C CNN
+	1    3250 7000
+	-1   0    0    1   
+$EndComp
+Wire Notes Line
+	2250 500  2250 5900
+Text Label 2600 6900 0    50   ~ 0
+AOHPM
+Text Label 2600 7000 0    50   ~ 0
+AOHPR
+Text Label 2600 7100 0    50   ~ 0
+AOHPL
+Connection ~ 2300 7000
+Wire Wire Line
+	2300 7000 2600 7000
+Connection ~ 1950 7100
+Wire Wire Line
+	1950 7100 2600 7100
+Wire Wire Line
+	2300 6900 2300 6700
+Wire Wire Line
+	1100 6900 2300 6900
+Wire Wire Line
+	1950 6800 1950 6700
+Wire Wire Line
+	1100 6800 1950 6800
+Wire Wire Line
+	1950 7100 1950 7200
+Wire Wire Line
+	1100 7100 1950 7100
+Wire Wire Line
+	2300 7000 2300 7200
+Wire Wire Line
+	1100 7000 2300 7000
+$Comp
+L power:GND #PWR?
+U 1 1 63C6607A
+P 2300 6400
+AR Path="/63BE5127/63C6607A" Ref="#PWR?"  Part="1" 
+AR Path="/63C6607A" Ref="#PWR0114"  Part="1" 
+F 0 "#PWR0114" H 2300 6150 50  0001 C CNN
+F 1 "GND" H 2300 6250 50  0000 C CNN
+F 2 "" H 2300 6400 50  0001 C CNN
+F 3 "" H 2300 6400 50  0001 C CNN
+	1    2300 6400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_TVS D?
+U 1 1 63C66074
+P 2300 6550
+AR Path="/63BE5127/63C66074" Ref="D?"  Part="1" 
+AR Path="/63BDD452/63C66074" Ref="D?"  Part="1" 
+AR Path="/63BDEBDA/63C66074" Ref="D?"  Part="1" 
+AR Path="/63BDEC81/63C66074" Ref="D?"  Part="1" 
+AR Path="/63BDED34/63C66074" Ref="D?"  Part="1" 
+AR Path="/63BDEE27/63C66074" Ref="D?"  Part="1" 
+AR Path="/63BDEEFE/63C66074" Ref="D?"  Part="1" 
+AR Path="/63C66074" Ref="D4"  Part="1" 
+F 0 "D4" V 2254 6629 50  0000 L CNN
+F 1 "PESD5V0S1BA" H 2100 6450 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2300 6550 50  0001 C CNN
+F 3 "~" H 2300 6550 50  0001 C CNN
+	1    2300 6550
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63C64C02
+P 1950 6400
+AR Path="/63BE5127/63C64C02" Ref="#PWR?"  Part="1" 
+AR Path="/63C64C02" Ref="#PWR0113"  Part="1" 
+F 0 "#PWR0113" H 1950 6150 50  0001 C CNN
+F 1 "GND" H 1950 6250 50  0000 C CNN
+F 2 "" H 1950 6400 50  0001 C CNN
+F 3 "" H 1950 6400 50  0001 C CNN
+	1    1950 6400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_TVS D?
+U 1 1 63C64BFC
+P 1950 6550
+AR Path="/63BE5127/63C64BFC" Ref="D?"  Part="1" 
+AR Path="/63BDD452/63C64BFC" Ref="D?"  Part="1" 
+AR Path="/63BDEBDA/63C64BFC" Ref="D?"  Part="1" 
+AR Path="/63BDEC81/63C64BFC" Ref="D?"  Part="1" 
+AR Path="/63BDED34/63C64BFC" Ref="D?"  Part="1" 
+AR Path="/63BDEE27/63C64BFC" Ref="D?"  Part="1" 
+AR Path="/63BDEEFE/63C64BFC" Ref="D?"  Part="1" 
+AR Path="/63C64BFC" Ref="D2"  Part="1" 
+F 0 "D2" V 1904 6629 50  0000 L CNN
+F 1 "PESD5V0S1BA" H 1750 6450 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1950 6550 50  0001 C CNN
+F 3 "~" H 1950 6550 50  0001 C CNN
+	1    1950 6550
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63C63B53
+P 2300 7500
+AR Path="/63BE5127/63C63B53" Ref="#PWR?"  Part="1" 
+AR Path="/63C63B53" Ref="#PWR0112"  Part="1" 
+F 0 "#PWR0112" H 2300 7250 50  0001 C CNN
+F 1 "GND" H 2300 7350 50  0000 C CNN
+F 2 "" H 2300 7500 50  0001 C CNN
+F 3 "" H 2300 7500 50  0001 C CNN
+	1    2300 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_TVS D?
+U 1 1 63C63B4D
+P 2300 7350
+AR Path="/63BE5127/63C63B4D" Ref="D?"  Part="1" 
+AR Path="/63BDD452/63C63B4D" Ref="D?"  Part="1" 
+AR Path="/63BDEBDA/63C63B4D" Ref="D?"  Part="1" 
+AR Path="/63BDEC81/63C63B4D" Ref="D?"  Part="1" 
+AR Path="/63BDED34/63C63B4D" Ref="D?"  Part="1" 
+AR Path="/63BDEE27/63C63B4D" Ref="D?"  Part="1" 
+AR Path="/63BDEEFE/63C63B4D" Ref="D?"  Part="1" 
+AR Path="/63C63B4D" Ref="D5"  Part="1" 
+F 0 "D5" V 2254 7429 50  0000 L CNN
+F 1 "PESD5V0S1BA" H 2100 7250 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2300 7350 50  0001 C CNN
+F 3 "~" H 2300 7350 50  0001 C CNN
+	1    2300 7350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63C6336C
+P 1950 7500
+AR Path="/63BE5127/63C6336C" Ref="#PWR?"  Part="1" 
+AR Path="/63C6336C" Ref="#PWR0111"  Part="1" 
+F 0 "#PWR0111" H 1950 7250 50  0001 C CNN
+F 1 "GND" H 1950 7350 50  0000 C CNN
+F 2 "" H 1950 7500 50  0001 C CNN
+F 3 "" H 1950 7500 50  0001 C CNN
+	1    1950 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_TVS D?
+U 1 1 63C62903
+P 1950 7350
+AR Path="/63BE5127/63C62903" Ref="D?"  Part="1" 
+AR Path="/63BDD452/63C62903" Ref="D?"  Part="1" 
+AR Path="/63BDEBDA/63C62903" Ref="D?"  Part="1" 
+AR Path="/63BDEC81/63C62903" Ref="D?"  Part="1" 
+AR Path="/63BDED34/63C62903" Ref="D?"  Part="1" 
+AR Path="/63BDEE27/63C62903" Ref="D?"  Part="1" 
+AR Path="/63BDEEFE/63C62903" Ref="D?"  Part="1" 
+AR Path="/63C62903" Ref="D3"  Part="1" 
+F 0 "D3" V 1904 7429 50  0000 L CNN
+F 1 "PESD5V0S1BA" H 1750 7250 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1950 7350 50  0001 C CNN
+F 3 "~" H 1950 7350 50  0001 C CNN
+	1    1950 7350
+	0    1    1    0   
+$EndComp
+Connection ~ 1750 1700
+Wire Wire Line
+	1750 1700 2100 1700
+Wire Wire Line
+	1650 1700 1750 1700
+$Comp
+L Device:LED_BARG D1
+U 1 1 63E3431F
+P 1450 1700
+F 0 "D1" H 1650 2000 50  0000 C CNN
+F 1 "LED_RGBA" H 1450 1300 50  0000 C CNN
+F 2 "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW" H 1450 1650 50  0001 C CNN
+F 3 "~" H 1450 1650 50  0001 C CNN
+	1    1450 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Large LOGO1
+U 1 1 641BEB26
+P 10650 1000
+F 0 "LOGO1" H 10650 1500 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Large" H 10650 600 50  0001 C CNN
+F 2 "bt_audio:openhardware_logo" H 10650 1000 50  0001 C CNN
+F 3 "~" H 10650 1000 50  0001 C CNN
+	1    10650 1000
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	9200 3350 9200 4150
+Wire Notes Line
+	9200 3350 11200 3350
+$EndSCHEMATC
